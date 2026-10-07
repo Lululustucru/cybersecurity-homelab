@@ -193,6 +193,12 @@ Signature ID:
 2024364
 ```
 
+Detailed Suricata documentation:
+
+```text
+suricata/setup.md
+```
+
 ---
 
 ## Suricata to Wazuh Integration
@@ -399,6 +405,7 @@ The first version of the homelab currently includes:
 ├── .gitignore
 │
 ├── architecture/
+│   ├── architecture.md
 │   └── ip-plan.md
 │
 ├── docker/
@@ -408,6 +415,9 @@ The first version of the homelab currently includes:
 │   │
 │   └── portainer/
 │       └── compose.yaml
+│
+├── suricata/
+│   └── setup.md
 │
 ├── troubleshooting/
 │   └── known-issues.md

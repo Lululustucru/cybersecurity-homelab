@@ -1,8 +1,46 @@
+# Environment files
 .env
+.env.*
+
+# Private keys and credential containers
 *.key
 *.pem
 *.pfx
 *.p12
+*.kdbx
+id_rsa
+id_ed25519
+id_ecdsa
+
+# VPN profiles
+*.ovpn
+
+# Sensitive directories
 secrets/
 credentials/
+
+# Wazuh generated installation secrets
+wazuh-install-files.tar
+wazuh-install-files/
+
+# pfSense configuration backups
+config.xml
+config-pfSense*.xml
+pfsense-config*.xml
+
+# Logs and packet captures
 *.log
+*.pcap
+*.pcapng
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.swp
+*~
+
+# OS / editor metadata
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
